@@ -1,0 +1,144 @@
+:root {
+    --rosa-principal: #C2185B;
+    --cinza-sombra: #8b8b8ba6;
+    --cinza-nome: #777777;
+    --branco-nome: #FFFFFF;
+    --cor-link-login: #000000
+}
+
+@font-face {
+    font-family:"Open Sans";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+}
+
+footer {
+ background: var(--rosa-principal);
+
+ width: 100vw;
+ padding: 2.5rem;
+
+ position: relative;
+ z-index: -1;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 1.5rem;
+}
+.logo-footer img {
+    width: 233px;
+}
+.logo-footer p {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    
+    color: var(--branco-nome);
+
+
+    text-align: center;
+    width: 233px;
+}
+
+.categorias-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.institucional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 1.5rem;
+}
+.institucional h3 {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 800;
+    padding-bottom: 1.3rem;
+
+    color: var(--branco-nome);
+}
+.link-footer {
+    text-align: center;
+    list-style: none;
+    padding: 0.2rem;
+}
+.link-footer a {
+    text-decoration: none;
+    color: var(--branco-nome);
+}
+.contato-footer{
+    padding-bottom: 1.4rem;
+}
+.contato-footer p {
+    text-align: center;
+
+    color: var(--branco-nome);
+}
+
+.contato-footer a {
+    text-decoration: none;
+
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 2.5rem;
+
+    border-top: 1px solid var(--branco-nome);
+    color: var(--branco-nome);
+}
+.copyright a {
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 628px) and (max-width: 900px) {
+
+    .categorias-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (min-width: 901px) {
+
+    footer {
+        z-index: 0;
+    }
+
+    #container-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        padding: 2rem;
+    }
+
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .categorias-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .institucional {
+        margin-right: 4rem;
+    }
+    .contato-footer {
+        margin-left: 4rem;
+    }
+    
+}

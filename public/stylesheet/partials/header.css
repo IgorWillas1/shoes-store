@@ -34,12 +34,15 @@ header {
     box-shadow: 0px 1px 20px var(--cinza-sombra);
 
     width: 100vw;
-
-    z-index: 10;
 }
 
+#logo_header {
+    z-index: 2;
+}
 #menu-nav {
     display: none;
+
+    z-index: 2;
 }
 
 .menu-list {
@@ -69,7 +72,7 @@ header {
 }
 
 #menu-lateral {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
 
@@ -79,12 +82,15 @@ header {
 
     top: 0px;
     right: 0px;
+    z-index: 10;
 
     background: var(--rosa-principal);
 }
 
 #icon-hamburguer img {
     margin-right: 1.4rem;
+
+    z-index: 2;
 }
 
 /* #side-bar {
