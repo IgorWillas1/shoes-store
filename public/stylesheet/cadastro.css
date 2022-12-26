@@ -1,0 +1,58 @@
+:root {
+    --rosa-principal: #C2185B;
+    --cinza-sombra: #8b8b8ba6;
+    --cinza-nome: #777777;
+    --branco-nome: #FFFFFF;
+    --cor-link-login: #000000
+}
+
+@font-face {
+    font-family:"Open Sans";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main #continer-form-cadastro {
+    width: 100vw;
+    padding: 1.3em;
+}
+
+form > h2 {
+    margin-bottom: 1.2em;
+}
+
+#nome, #sobrenome, #email, #senha, #confirmacao {
+    width: 90vw;
+}
+
+div > label {
+    font-family: 'Open sans', Arial, sans-serif;
+
+    color: var(--rosa-principal);
+}
+
+.input {
+    margin-bottom: 1.1em;
+}
+
+form > h2 {
+    color: var(--rosa-principal);
+    font-family: 'Open sans', Arial, sans-serif;
+}
+
+.input > input {
+    padding: 1.1em 1.2em;
+    margin: 1.1em 0;
+
+    border: none;
+    border-bottom: 1px solid var(--rosa-principal);
+
+    color: var(--cinza-nome);
+}
+input:focus {
+    outline: none;
+}

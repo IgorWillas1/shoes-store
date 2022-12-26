@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet/cadastro.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheet/partials/header.css">
+    <link rel="stylesheet" href="/stylesheet/partials/footer.css">
+    <script src="/javascript/side-bar-script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <%- include('partials/header') %>
+
+    <main>
+        <div id="continer-form-cadastro">
+            <form action="" id="form-container">
+                <h2>Cadastre-se:</h2>
+    
+                <div class="input">
+                    <label for="nome">Nome:</label> <br>
+                    <input 
+                    type="text" 
+                    name="nome" 
+                    id="nome" 
+                    placeholder="Digite seu nome...">
+                </div>
+    
+                <div class="input">
+                    <label for="sobrenome">Sobrenome:</label> <br>
+                    <input 
+                    type="text" 
+                    name="sobrenome" 
+                    id="sobrenome" 
+                    placeholder="Digite seu sobrenome...">
+                </div>
+    
+                <div class="input">
+                    <label for="email">Email:</label> <br>
+                    <input 
+                    type="text" 
+                    name="email" 
+                    id="email" 
+                    placeholder="ex.: email@gmail.com">
+                </div>
+    
+                <div class="input">
+                    <label for="senha">Crie um senha:</label> <br>
+                    <input 
+                    type="password" 
+                    name="senha" 
+                    id="senha" 
+                    placeholder="Apenas letras Aa ou números 0-9">
+                </div>
+    
+                <div class="input">
+                    <label for="confirmacao">Confirme a senha:</label> <br>
+                    <input 
+                    type="password" 
+                    name="confirmacao" 
+                    id="confirmacao">
+                </div>
+    
+                <div class="input">
+                    <label for="nascimento">Data de nascimento:</label> <br>
+                    <input 
+                    type="date" 
+                    name="nascimento" 
+                    id="nascimento">
+                </div>
+    
+                <div class="input">
+                    <label for="numero">Digite seu contado:</label> <br>
+                    <input 
+                    type="number"
+                    name="numero" 
+                    id="numero" 
+                    placeholder="Ex.: 81 00000-0000">
+                </div>
+    
+                <div class="input">
+                    <input 
+                    type="checkbox" 
+                    name="aceito" 
+                    id="aceito"
+                    >
+                    <label for="aceito">Eu aceito os <a href="">Termos e Políticasde Privacidade</a> do site.</label>
+                </div>
+    
+            </form>
+        </div>
+    </main>
+
+    <%- include('partials/footer') %>
+    
+</body>
+</html>

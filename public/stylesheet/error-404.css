@@ -16,23 +16,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    height: 2000px;
+main {
+    height: 45vh;
 }
 
 h1 {
     text-align: center;
     margin: 2rem;
 
+    padding-top: 5rem;
+
     font-size: 2rem;
     font-family: 'Open sans', Arial, sans-serif;
 
     color: var(--cinza-nome);
-
-    z-index: 1;
 }
 
 a {
     color: var(--rosa-principal);
+}
+
+@media screen and (max-width: 627px) {
+    main {
+        height: 35vh;
+    }
+
+    h1 {
+        padding-top: 0rem;
+    }
+}
+
+@media screen and (min-width: 907px) {
+    main {
+        height: 55vh;
+    }
 }

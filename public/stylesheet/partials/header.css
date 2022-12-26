@@ -10,26 +10,10 @@
     font-family:"Open Sans";
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
 }
-
-#barra-inicial {
-    width: 100vw;
-}
-
-.tag-inicial {
-    text-align: center;
-    padding: 10px 0px;
-
-    background: var(--rosa-principal);
-    color: var(--branco-nome);
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    position: sticky;
-    top: 0;
 
     box-shadow: 0px 1px 20px var(--cinza-sombra);
 
