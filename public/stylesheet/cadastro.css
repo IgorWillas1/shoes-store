@@ -26,7 +26,7 @@ form > h2 {
 }
 
 #nome, #sobrenome, #email, #senha, #confirmacao {
-    width: 90vw;
+    width: 90%;
 }
 
 div > label {
@@ -55,4 +55,28 @@ form > h2 {
 }
 input:focus {
     outline: none;
+}
+
+@media screen and (min-width: 900px) {
+    main #continer-form-cadastro {
+        width: 80%;
+        margin: 1.2em auto;
+        padding: 1.3em;
+    }
+    #nome, #sobrenome, #email, #senha, #confirmacao {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 1500px) {
+    main #continer-form-cadastro {
+        width: 60%;
+        margin: 1.2em auto;
+        padding: 1.3em;
+    }
+    #nome, #sobrenome, #email, #senha, #confirmacao {
+        width: 100%;
+    }
+    
 }
