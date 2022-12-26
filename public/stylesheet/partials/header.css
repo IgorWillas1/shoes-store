@@ -97,7 +97,7 @@ header {
 
     padding: 2rem 1.5rem;
 
-    border-bottom: 1px solid var(--cinza-nome);
+    border-bottom: 1px solid var(--cor-link-login);
 }
 
 .login-cadastro {
@@ -128,7 +128,7 @@ header {
     padding: 1.5rem 2rem;
 
     width: 100%;
-    border-bottom: 1px solid var(--cinza-nome);
+    border-bottom: 1px solid var(--cor-link-login);
 }
 
 .side-link {
@@ -138,7 +138,7 @@ header {
     font-weight: 600;
     font-size: 1.5rem;
 
-    color: var(--cinza-nome);
+    color: var(--cor-link-login);
 }
 
 
