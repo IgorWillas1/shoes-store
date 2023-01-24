@@ -19,4 +19,6 @@ app.use((req, res, next) => {
     res.status(404).render('error-404')
 })
 
-app.listen(3002, () => { console.log('Servidor rodando na porta 3002!')})
+app.listen(3002, () => { 
+    console.log('Servidor rodando na porta 3002!')
+})

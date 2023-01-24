@@ -57,6 +57,13 @@ input:focus {
     outline: none;
 }
 
+button {
+    padding: 1.3rem 1.5rem;
+    color: var(--branco-nome);
+    background: var(--rosa-principal);
+    border-radius: 5px;
+}
+
 @media screen and (min-width: 900px) {
     main #continer-form-cadastro {
         width: 80%;
