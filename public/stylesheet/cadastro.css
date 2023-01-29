@@ -71,7 +71,7 @@ button {
         padding: 1.3em;
     }
     #nome, #sobrenome, #email, #senha, #confirmacao {
-        width: 100%;
+        width: 90%;
     }
     
 }
