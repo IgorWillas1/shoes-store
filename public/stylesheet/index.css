@@ -1,9 +1,26 @@
+:root {
+    --rosa-principal: #C2185B;
+    --cinza-sombra: #8b8b8ba6;
+    --cinza-nome: #777777;
+    --branco-nome: #FFFFFF;
+    --cor-link-login: #000000
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family:"Open Sans";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+}
+
 body {
-    height: 2000px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;    
+}
+
+#section-1 img {
+    width: 100vw;
 }
